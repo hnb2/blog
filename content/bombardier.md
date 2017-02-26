@@ -7,7 +7,7 @@ HTTP benchmarking is an important step in the life cycle of the development of a
 
 ## Http benchmarking with Bombardier
 
-[Bombardier](https://github.com/codesenberg/bombardier) is a command-line HTTP(s) benchmarking tool written in GO and hosted on github, a nice alternative to Apache AB someone told me about earlier today. I think it's a great tool to have a quick overview of how an endpoint of your application server is responding to a high load. It iss lightweight, fast and straight to the point.
+[Bombardier](https://github.com/codesenberg/bombardier) is a command-line HTTP(s) benchmarking tool written in GO and hosted on github, a nice alternative to Apache AB someone told me about earlier today. I think it's a great tool to have a quick overview of how an endpoint of your application server is responding to a high load. It is lightweight, fast and straight to the point.
 
 ## Installation
 

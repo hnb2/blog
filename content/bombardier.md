@@ -62,7 +62,7 @@ But there are much more and you can get the complete list of options by running:
 ```
 bombardier --help
 ```
- 
+
 ## My two cents
 
 This tool is great to quickly run a load test on a specific endpoint and get useful information fast and in a non cryptic way (I am looking at you `ab`). But unfortunately, it is limited to a single URL and there are no reports that can be generated/exported (at the time I am writing those lines). I hope we will get this reporting feature pretty soon as the project seems healthy and development ongoing: commits are frequent and tickets are being closed quickly (with an actual solution); I would love to keep historical information about an endpoint and present the improvements over time to whoever has time for me.

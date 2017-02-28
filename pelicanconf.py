@@ -20,7 +20,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),)
+LINKS = (
+    ('Pelican', 'http://getpelican.com/'),
+    ('Netlify', 'https://www.netlify.com'),
+)
 
 # Social widget
 SOCIAL = ()

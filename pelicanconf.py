@@ -28,6 +28,11 @@ LINKS = (
 # Social widget
 SOCIAL = ()
 
+STATIC_PATHS = ['extra/favicon.ico']
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'}
+}
+
 DEFAULT_PAGINATION = 10
 
 TYPOGRIFY = True

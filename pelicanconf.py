@@ -26,7 +26,9 @@ LINKS = (
 )
 
 # Social widget
-SOCIAL = ()
+SOCIAL = (
+    ('github', 'https://github.com/hnb2'),
+)
 
 STATIC_PATHS = ['extra/favicon.ico']
 EXTRA_PATH_METADATA = {

@@ -27,11 +27,12 @@ LINKS = (
 
 # Social widget
 SOCIAL = (
-    ('github', 'https://github.com/hnb2'),
+    ('Github', 'https://github.com/hnb2'),
 )
 
-STATIC_PATHS = ['extra/favicon.ico']
+STATIC_PATHS = ['extra/favicon.ico', 'extra/robots.txt']
 EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
     'extra/favicon.ico': {'path': 'favicon.ico'}
 }
 

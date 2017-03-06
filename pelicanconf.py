@@ -12,6 +12,11 @@ TIMEZONE = 'Asia/Dubai'
 
 DEFAULT_LANG = 'en'
 
+# Theme specific variables
+THEME = 'themes/pelican-clean-blog'
+COLOR_SCHEME_CSS = 'tomorrow_night.css'
+DISABLE_CUSTOM_THEME_JAVASCRIPT = True
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None

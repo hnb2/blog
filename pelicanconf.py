@@ -16,6 +16,9 @@ DEFAULT_LANG = 'en'
 THEME = 'themes/pelican-clean-blog'
 COLOR_SCHEME_CSS = 'tomorrow_night.css'
 DISABLE_CUSTOM_THEME_JAVASCRIPT = True
+FOOTER_INCLUDE = 'custom-footer.html'
+IGNORE_FILES = [FOOTER_INCLUDE]
+EXTRA_TEMPLATES_PATHS = ['templates']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -27,7 +30,6 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (
     ('Pelican', 'http://getpelican.com/'),
-    ('Netlify', 'https://www.netlify.com'),
 )
 
 # Social widget

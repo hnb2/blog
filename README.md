@@ -8,7 +8,7 @@ python -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 
-# Clone the theme
+# Clone the theme and plugins
 git submodule init
 git submodule update
 ```

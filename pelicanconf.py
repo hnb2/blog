@@ -20,6 +20,23 @@ FOOTER_INCLUDE = 'custom-footer.html'
 IGNORE_FILES = [FOOTER_INCLUDE]
 EXTRA_TEMPLATES_PATHS = ['templates']
 
+# Plugins specific variables
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['sitemap']
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 1.0,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+}
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None

@@ -47,11 +47,13 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (
     ('Pelican', 'http://getpelican.com/'),
+    ('Tech-League', 'https://techleague.io/'),
 )
 
 # Social widget
 SOCIAL = (
     ('Github', 'https://github.com/hnb2'),
+    ('Linkedin', 'https://www.linkedin.com/in/pierre-guillemot-32829239/'),
 )
 
 STATIC_PATHS = ['extra/favicon.ico', 'extra/robots.txt']

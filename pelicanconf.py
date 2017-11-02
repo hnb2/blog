@@ -54,6 +54,7 @@ LINKS = (
 SOCIAL = (
     ('Github', 'https://github.com/hnb2'),
     ('Linkedin', 'https://www.linkedin.com/in/pierre-guillemot-32829239/'),
+    ('Twitter', 'https://twitter.com/hnb_02')
 )
 
 STATIC_PATHS = ['extra/favicon.ico', 'extra/robots.txt']
